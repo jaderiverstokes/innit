@@ -29,7 +29,7 @@ sudo apt install -y silversearcher-ag
     echo "alias skrr=\"exit\""
     echo "alias com=\"git add .;git commit --no-verify -m\""
 } >> ~/.bashrc
-
+source ~/.bashrc
 
 # Set the content of ~/.gitconfig
 cat << EOF > ~/.gitconfig
