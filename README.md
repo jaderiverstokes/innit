@@ -28,8 +28,8 @@ source ~/.bashrc
 # Set the content of ~/.gitconfig
 cat << EOF > ~/.gitconfig
 [user]
-	name = jaderiverstokes
-	email = jaderiverstokes@gmail.com
+    name = jaderiverstokes
+    email = jaderiverstokes@gmail.com
 [core]
     excludesfile = ~/.gitignore
 [color]
@@ -47,12 +47,12 @@ cat << EOF > ~/.gitconfig
     st = status
     rect = commit --amend --no-edit
 [push]
-	default = current
+    default = current
 [filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
 EOF
 
 
