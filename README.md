@@ -1,7 +1,7 @@
 # innit
 
 
-
+```bash
 # Append the custom configurations to .bashrc
 {
     echo "# calm"
@@ -69,3 +69,4 @@ vim +PlugInstall +qall
 
 ssh-keygen -q -N "" -f ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
+```
