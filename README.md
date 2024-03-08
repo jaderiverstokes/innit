@@ -62,9 +62,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln ~/.vim/vimrc ~/.vimrc
 
 sudo add-apt-repository -y ppa:jonathonf/vim
-sudo apt install -y vim
-sudo apt install -y silversearcher-ag
-vim +PlugInstall +qall
+sudo apt install -y vim silversearcher-ag && vim +PlugInstall +qall
 
 
 ssh-keygen -q -N "" -f ~/.ssh/id_rsa
