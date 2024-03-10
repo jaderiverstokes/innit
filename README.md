@@ -63,4 +63,5 @@ ln ~/.vim/vimrc ~/.vimrc
 
 sudo add-apt-repository -y ppa:jonathonf/vim
 sudo apt install -y vim silversearcher-ag && vim +PlugInstall +qall && ssh-keygen -q -N "" -f ~/.ssh/id_rsa&& cat ~/.ssh/id_rsa.pub
+
 ```
